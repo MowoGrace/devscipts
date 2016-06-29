@@ -15,16 +15,15 @@ TIME_STAMP="Report generated on $RIGHT_NOW by $USER"
 filename=report$RIGHT_NOW.html;
 
 #registry of error flags
-ERROR_MESSAGE_1="ERROR";
-ERROR_MESSAGE_2="UNEXPECTED_EXCEPTION";
-ERROR_MESSAGE_3="An unexpected errror";
-ERROR_MESSAGE_4="InvalidEventStateException";
-ERROR_MESSAGE_5="The error occured ";
-ERROR_MESSAGE_6="Check the ";
-ERROR_MESSAGE_7="Cause: ";
-ERROR_MESSAGE_8="Caused by: ";
-
-error_flags="ERROR|UNEXPECTED_EXCEPTION|An unexpected errror|InvalidEventStateException|The error occured |Check the |Cause: |Caused by: "
+error_flags="\
+ERROR|\
+UNEXPECTED_EXCEPTION|\
+An unexpected errror|\
+InvalidEventStateException|\
+The error occured |\
+Check the |\
+Cause: |\
+Caused by: "
 
 scriptName=$0;
 scriptName=$(echo $scriptName | awk -F/ '{print $NF}');
@@ -54,8 +53,6 @@ function _showDebugEntries_() {
 }
 
 function _showErrorEntries_() {
-    STRING_FRAG_1="${ERROR_MESSAGE_1}|${ERROR_MESSAGE_2}|${ERROR_MESSAGE_3}|${ERROR_MESSAGE_4}|";
-    STRING_FRAG_2="${ERROR_MESSAGE_5}|${ERROR_MESSAGE_6}|${ERROR_MESSAGE_7}|${ERROR_MESSAGE_8}";
     egrep "${error_flags}" ${LOG_FILE_PATH}
 }
 

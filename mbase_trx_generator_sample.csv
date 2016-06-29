@@ -1,0 +1,62 @@
+1,19,19,S,ACCTNO,Account Number
+20,20,1,A,ACTYPE,Account Type
+21,100,80,A,ACNAM1,Account Name 1
+101,220,120,A,ACNAM2,Account Name 2
+221,221,1,S,STATUS,Status
+222,231,10,A,TYPE,Loan Type
+232,281,50,A,PTYDSC,Type Description
+282,289,8,S,LPDT8,Last Pymt Date
+290,306,17,S,LSTPMT,Last Pymt Amount
+307,314,8,S,MATDT8,Maturity Date
+315,322,8,S,ORGDT8,Original Loan Date
+323,330,8,S,NPDT8,Next Pymt Due Date
+331,347,17,S,ORGAMT,Original Balance
+348,364,17,S,AVLBAL,Available Balance
+365,381,17,S,XOSBAL,O/S Balance
+382,398,17,S,LTDPMR,LTD payms received
+399,415,17,S,PMTAMT,Payment Amount
+416,426,11,S,RATE,Loan interest rate
+427,445,19,S,PDIEM,Daily Accrual
+446,462,17,S,XOSPRN,Current Balance
+463,481,19,S,ACCINT,Accrued Interest
+482,500,19,S,PENINT,Accrued Penalty Interest
+501,517,17,S,OTHCHG,Other Charges  
+518,534,17,S,MISCD,Miscellaneous Cost
+535,551,17,S,BILPRN,Billed Prin Amt
+552,568,17,S,BILINTW,Billed Int Amt
+569,585,17,S,BILLC,Billed Late Chgs
+586,602,17,S,BILOC,Billed Other Chgs
+603,619,17,S,XBILBAL,Total Current Billed
+620,636,17,S,BILPNO,Billed Prin Amt OD
+637,653,17,S,BILINO_BILINOW,Billed Int Amt OD
+654,670,17,S,BILLCO,Billed Late Chgs OD
+671,687,17,S,XDUEBAL,Total Overdue Billed
+688,690,3,A,LEGSTA,Legal Status    
+691,695,5,S,LMMIAC,Month in Arrears
+696,703,8,S,FULLD8,Full Rel. Date
+704,711,8,S,NSPDT8,Next Sched Pymt Date
+712,712,1,A,LP2CRT,
+713,713,1,A,GRPSTF,Group Staff
+714,717,4,A,SBUCOD,SBU Code  
+718,718,1,A,SDAND8,
+719,723,5,S,BRN,Branch Code
+724,728,5,S,TERM,Loan Term
+729,729,1,A,TMCODE,Loan Term Code
+730,746,17,S,CURPO,Current Month Payoff
+747,747,1,A,NPLSTA,NPL Status
+748,764,17,S,PRTPMT,Partial Pymt Amount
+765,789,25,A,CCBRGN,Vehicle  Number
+790,790,1,A,CCPFSF,Source Code
+791,791,1,A,PMTPGM,Program Payment
+792,799,8,S,LBDUD8,Due Date
+800,816,17,S,LBPRN,Bill Principal
+817,833,17,S,LBINT,Bill Interest
+834,850,17,S,LBLC,Bill Late Charge
+851,867,17,S,LBOC,Bill Other Charges
+868,884,17,S,LBTAMT,Total Bill Amount
+885,886,2,A,CARCD,Class Code
+887,888,2,S,BNK_BKN,Bank Number
+889,889,1,A,CRZFLG,Crystalized Flag
+890,890,1,A,FRZFLG,Frozen Flag
+891,891,1,A,WTLCODE,TLCODE
+892,893,2,S,OWNBKN,Owned by Company  

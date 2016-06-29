@@ -17,6 +17,7 @@ filename=report$RIGHT_NOW.html;
 #registry of error flags
 error_flags="\
 ERROR|\
+FATAL|\
 UNEXPECTED_EXCEPTION|\
 An unexpected errror|\
 InvalidEventStateException|\
@@ -113,3 +114,9 @@ case "$1" in
     _showHelp_;
     ;;
 esac
+
+
+#wire-up pagination
+#get  short description of every line
+#convert to JSON literal
+#convert to CSV etc
